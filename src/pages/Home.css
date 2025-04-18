@@ -1,0 +1,88 @@
+/* Resetando o estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Contêiner principal */
+.home-container {
+  width: 100%;
+  max-width: 480px; /* Definindo o limite máximo da largura, como em um celular */
+  height: 100%;
+  background-color: #fff;
+  border-radius: 12px; /* Cantos arredondados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cabeçalho */
+.header {
+  background-color: #6a1b9a;
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Estilos do conteúdo */
+.main-content {
+  margin-top: 30px;
+}
+
+.main-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #8e24aa;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
