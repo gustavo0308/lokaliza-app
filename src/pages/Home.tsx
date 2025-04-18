@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <div className="home-container">
       <div className="home-content">
         <HomeIcon />
-        <h1>Bem-vindo ao LokalizeA!</h1>
+        <h1>Bem-vindo ao Lokalize!</h1>
         <p>Seu app para conectar clientes a lojistas locais.</p>
       </div>
     </div>
