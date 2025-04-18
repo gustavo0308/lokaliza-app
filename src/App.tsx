@@ -1,16 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
+import './App.css'; // Importando o CSS principal do App
+import BottomNavigation from './components/BottomNavigation';  // Importando o componente de navegação inferior
 
-function App() {
+const App: React.FC = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <h1>Bem-vindo ao meu App!</h1>
+
+      {/* Aqui você pode adicionar mais conteúdo ou componentes */}
+      <p>Esta é a área principal do aplicativo.</p>
+
+      {/* BottomNavigation é chamado aqui */}
+      <BottomNavigation />
+
+      {/* Mais conteúdo abaixo se necessário */}
+    </div>
   );
 }
 

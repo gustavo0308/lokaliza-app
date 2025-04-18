@@ -1,6 +1,6 @@
 import React from 'react';
 import './BottomNavigation.css';
-import homeIcon from '../assets/icons/home.png'; // ajuste conforme o caminho real
+import homeIcon from '../assets/icons/Home.png'; // ajuste conforme o caminho real
 
 const BottomNavigation = () => {
   return (
