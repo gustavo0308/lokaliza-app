@@ -1,10 +1,11 @@
 import React from 'react';
+import './App.css'; // Importando o arquivo de estilos
 import BottomNavigation from './components/BottomNavigation';
 
 function App() {
   return (
-    <div style={{ paddingBottom: '60px' }}>
-      <h1>Meu App</h1>
+    <div className="app-container">
+      <h1>Meu App</h1>  {/* Título centralizado */}
       {/* conteúdo principal aqui */}
       <BottomNavigation />
     </div>

@@ -1,5 +1,13 @@
-.App {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Alinha o conteúdo ao topo */
+  align-items: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  text-align: center; /* Garante que o texto do título também seja centralizado */
+}
+
+h1 {
+  margin-top: 20px; /* Adiciona um pequeno espaçamento do topo da página */
+  font-size: 2rem; /* Ajuste o tamanho do título se necessário */
+}
