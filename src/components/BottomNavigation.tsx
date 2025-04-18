@@ -1,6 +1,6 @@
 import React from 'react';
 import './BottomNavigation.css';
-import homeIcon from '../assets/icons/Home.png';
+import homeIcon from '../assets/icons/Nova Home.png';
 import ofertasIcon from '../assets/icons/Ofertas.png'; // 👈 novo ícone
 
 const BottomNavigation: React.FC = () => {
