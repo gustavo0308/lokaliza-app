@@ -3,8 +3,8 @@ import React from 'react';
 const Ofertas: React.FC = () => {
   return (
     <div>
-      <h2>Página Ofertas</h2>
-      <p>Essas são as ofertas do nosso app.</p>
+      <h2>Página Leilão</h2>
+      <p>Essa pagina ainda está em construção.</p>
     </div>
   );
 };
